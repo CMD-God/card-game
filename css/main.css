@@ -1,0 +1,36 @@
+
+#main_middle {
+	margin: auto;
+	width: 80%;
+	min-width: 300px;
+	max-width: 1500px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#header {
+	/*border-radius: 1em;*/
+	background-color: black;
+	border: 3px white solid;
+	position: sticky;
+	height: 2.8em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#header span {
+	vertical-align: middle;
+}
+
+.battle_button {
+	border: 2px solid #FF7F27;
+	margin: 0 0.5em;
+	color: #FF7F27;
+	background-color: black;
+	padding: 0.1em 0.3em;
+	font-size: 2em;
+}
+
+.battle_button:hover {
+	color: yellow;
+	border: 2px solid yellow;
+}
